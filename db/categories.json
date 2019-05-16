@@ -1,0 +1,16 @@
+{
+    "categories": [
+        {
+            "id": "category0",
+            "name": "Fireworks"
+        },
+        {
+            "id": "category1",
+            "name": "Demolition"
+        },
+        {
+            "id": "category2",
+            "name":"Firearms"
+        }
+    ]
+}
