@@ -1,0 +1,22 @@
+{
+    "types": [
+        {
+            "id": "type0",
+            "category": "category0",
+            "name": "personal",
+            "description": "Fireworks intended for recreational use during holiday celebrations"
+        },
+        {
+            "id":"type1",
+            "category": "category1",
+            "name":"business",
+            "description": "Demolition equipment used at construction sites"
+        },
+        {
+            "id":"type2",
+            "category":"category2",
+            "name":"personal",
+            "description": "Firearms used for intended for personal use"
+        }
+    ]
+}
