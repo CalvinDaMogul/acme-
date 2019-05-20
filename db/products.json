@@ -4,7 +4,16 @@
             "id": "product0",
             "type": "type0",
             "name": "Fairy Sparklers",
+            "imageUrl": "https://weddingdaysparklers.com/wp-content/uploads/2017/06/smokeless-wedding-sparklers.jpg",
             "description": "Multi-colored sparklers that are safe for any age."
+        },
+
+        "blue_laces":{
+            "id": "product1",
+            "type":"type1",
+            "name":"Bottle Rockets",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIzuKAa_4UKA9I1JXejMGog2-FgV0ktcMYyudYodJaoaFw8i-Pwg",
+            "description":"Big Bottle rockets that shoot out blue streams that are similar to laces"
         }
     }]
 }
