@@ -3,9 +3,9 @@ import axios from 'axios';
 const loadPinsForBoard = boardId => new Promise((resolve, reject) => {
   axios.get('../db/products.json')
     .then((resp) => {
-      const allPins = resp.data.pins;
-      const matchingPins = allPins.filter(pin => pin.boardId === boardId);
-      resolve(matchingPins);
+      const allPins = resp.data.products;
+      const matchingProducts = allPins.filter(pin => pin.boardId === boardId);
+      resolve(matchingProducts);
     })
     .catch(err => reject(err));
 });
@@ -13,11 +13,11 @@ const loadPinsForBoard = boardId => new Promise((resolve, reject) => {
 const getPinsForEachBoard = boards => new Promise((resolve, reject) => {
   axios.get('../db/products.json')
     .then((resp) => {
-      const { pins } = resp.data;
-      const boardsWithPins = boards.map((board) => {
-        const newBoard = board;
-        const matchingPins = pins.filter(pin => pin.boardId === board.id);
-        newBoard.pins = matchingPins;
+      const { products } = resp.data;
+      const boardsWithPins = boards.map((category) => {
+        const newBoard = category;
+        const matchingProducts = products.filter(products => products.boardId === category.id);
+        newBoard.products = matchingProducts;
         return newBoard;
       });
 
